@@ -1,0 +1,91 @@
+{
+	"extensions.supportUntrustedWorkspaces": {},
+	"terminal.integrated.defaultProfile.linux": "zsh",
+	"editor.fontFamily": "'Fira Code'",
+	"editor.fontLigatures": true,
+	"terminal.integrated.fontFamily": "Fira Code",
+	"debug.console.fontFamily": "Fira Code",
+	"editor.wordWrap": "on",
+	"editor.fontSize": 14,
+	"editor.mouseWheelZoom": true,
+	"editor.tabSize": 2,
+	"editor.lineNumbers": "on",
+
+	// Formatter
+	"editor.formatOnSave": true,
+	"editor.codeActionsOnSave": {
+		"source.fixAll": "explicit",
+		"source.organizeImports": "explicit"
+	},
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
+	"editor.formatOnPaste": false,
+	"editor.formatOnType": false,
+	"editor.formatOnSaveMode": "file",
+	"prettier.useTabs": true,
+	"files.autoSave": "onFocusChange",
+
+	// Discord Presence
+	"vscord.app.name": "Visual Studio Code",
+	"vscord.status.details.text.idle": "Not Coding \\(^x^)/ (Havin fun)",
+
+	//C_Cpp Shit
+	"C_Cpp.inlayHints.parameterNames.hideLeadingUnderscores": false,
+	"C_Cpp.errorSquiggles": "enabled",
+
+	//Colors 'n Themes
+	"workbench.colorCustomizations": {
+		"[Atom One Dark]": {
+			"editor.background": "#202020"
+		}
+	},
+	"editor.tokenColorCustomizations": {
+		"variables": "#ffb52c",
+		"types": "#f36969fd",
+		"textMateRules": [
+			{
+				"scope": [
+					"storage.type.built-in.primitive.c",
+					"storage.type.built-in.primitive.cpp"
+				],
+				"settings": {
+					"foreground": "#f36969fd"
+				}
+			}
+		]
+	},
+	"workbench.colorTheme": "Atom One Dark",
+
+	// Other
+	"explorer.confirmDragAndDrop": false,
+	"json.schemas": [],
+	"[c]": {
+		"editor.defaultFormatter": "xaver.clang-format",
+		"editor.wordBasedSuggestions": "off",
+		"editor.suggest.insertMode": "replace",
+		"editor.semanticHighlighting.enabled": true
+	},
+	"workbench.iconTheme": "vscode-icons",
+	"liveServer.settings.donotShowInfoMsg": true,
+	"jupyter.askForKernelRestart": false,
+	"[python]": {
+		"editor.formatOnType": true
+	},
+	"git.autofetch": true,
+	"git.confirmSync": false,
+	"settingsSync.ignoredSettings": ["workspaceSidebar.folder"],
+	"vsicons.dontShowNewVersionMessage": true,
+	"workspaceSidebar.folder": "/home/raph/Desktop/workspaces",
+	"files.associations": {
+		"\"*.h\"": "\"cpp\""
+	},
+	"lldb.suppressUpdateNotifications": true,
+	"cmake.configureOnOpen": false,
+	"cmake.showOptionsMovedNotification": false,
+	"clang-format.executable": "clang-format",
+	"clang-format.style": "file",
+	"clang-format.language.c.enable": true,
+	"clang-format.assumeFilename": "${workspaceFolder}/.clang-format",
+	"[cpp]": {
+		"editor.defaultFormatter": "xaver.clang-format"
+	}
+}
