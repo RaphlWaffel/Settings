@@ -12,7 +12,7 @@
 	"editor.lineNumbers": "on",
 
 	// Formatter
-	"editor.formatOnSave": true,
+	"editor.formatOnSave": false,
 	"editor.codeActionsOnSave": {
 		"source.fixAll": "explicit",
 		"source.organizeImports": "explicit"
